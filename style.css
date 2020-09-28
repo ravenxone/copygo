@@ -1,0 +1,85 @@
+/* A copy of google */
+
+/* class */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.google {
+  background: white;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border: 20px tomato;
+}
+
+.parent {
+  background: white;
+  display: flex;
+}
+.child1 {
+  height: 20px;
+  width: 17vw;
+  padding-top: 20px;
+  padding-left: 10px;
+  align-self: flex-start;
+}
+.child2 {
+  width: 67vw;
+  height: 20px;
+  align-self: center;
+}
+.child3 {
+  height: 20px;
+  width: 17vw;
+  padding-top: 20px;
+  align-self: flex-end;
+}
+
+.logo {
+  align-self: center;
+  padding-bottom: 3vh;
+}
+.search {
+  align-self: center;
+  position: relative;
+  width: 600px;
+  height: 4.5%;
+}
+.search i {
+  position: absolute;
+  left: 1vh;
+  bottom: 2vh;
+  top: 1vh;
+  padding: 0.5vh;
+  color: lightslategray;
+}
+.search input {
+  align-self: center;
+  width: 100%;
+  max-width: 800px;
+  height: 100%;
+  border-radius: 25px;
+  border-width: 0.5px;
+  border-color: gray;
+  outline: none;
+  font-size: 25px;
+  padding-left: 2vw;
+}
+.empty {
+  width: 100%;
+  height: 18%;
+  z-index: 4;
+}
+
+/* id */
+
+/* tags */
+li {
+  float: left;
+  padding-right: 2vw;
+}
